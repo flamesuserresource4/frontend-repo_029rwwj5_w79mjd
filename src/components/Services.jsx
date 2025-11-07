@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mountain, Hiking, Activity, Shield, Radio, Ambulance } from 'lucide-react';
+import { Mountain, Compass, Activity, Shield, Radio, Ambulance } from 'lucide-react';
 
 const services = [
   {
@@ -8,7 +8,7 @@ const services = [
     desc: 'Medical coverage, trip interruption, and personal liability for travelers exploring Nepal\'s cities and lowlands.'
   },
   {
-    icon: <Hiking className="h-6 w-6 text-sky-500" />,
+    icon: <Compass className="h-6 w-6 text-sky-500" />,
     title: 'Trekking Insurance',
     desc: 'High-altitude evacuation, AMS coverage, and gear protection for popular trekking routes like Annapurna and Everest.'
   },
